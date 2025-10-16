@@ -2674,4 +2674,21 @@ export const examples: Registry["items"] = [
       mobile: "component",
     },
   },
+  {
+    name: "spring-animations-demo",
+    description: "Interactive demo of spring physics animations with Framer Motion.",
+    type: "registry:example",
+    dependencies: ["motion"],
+    registryDependencies: ["button", "card"],
+    files: [
+      {
+        path: "examples/spring-animations-demo.tsx",
+        type: "registry:example",
+      },
+    ],
+    categories: ["animation", "motion"],
+    meta: {
+      iframeHeight: "800px",
+    },
+  },
 ]

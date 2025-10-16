@@ -15,6 +15,8 @@
     "registry:build": "tsx --tsconfig ./tsconfig.scripts.json ./scripts/build-registry.mts && prettier --log-level silent --write \"registry/**/*.{ts,tsx,json,mdx}\" --cache",
     "registry:capture": "tsx --tsconfig ./tsconfig.scripts.json ./scripts/capture-registry.mts",
     "validate:registries": "tsx --tsconfig ./tsconfig.scripts.json ./scripts/validate-registries.mts",
+    "validate:patterns": "tsx ../../scripts/validate-patterns.mts",
+    "validate:patterns:report": "tsx ../../scripts/validate-patterns.mts --report",
     "postinstall": "fumadocs-mdx"
   },
   "dependencies": {

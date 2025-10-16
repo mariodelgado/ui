@@ -12,4 +12,15 @@ export const lib: Registry["items"] = [
       },
     ],
   },
+  {
+    name: "springs",
+    type: "registry:lib",
+    dependencies: ["motion"],
+    files: [
+      {
+        path: "lib/springs.ts",
+        type: "registry:lib",
+      },
+    ],
+  },
 ]
